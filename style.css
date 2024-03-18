@@ -1,0 +1,408 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+ 
+}
+
+body{
+    /* For perfect background image */
+    background: url(backimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* CSS Variables */ 
+
+
+
+
+.navbar-nav{
+    position: absolute;
+    right: 40px; 
+}
+header .navbar .navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #4458dc;
+ 
+}
+
+
+.header_area .navbar{
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.header_area .navbar .nav-item .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: black;
+}
+.header_area .navbar .navbar-nav .active a{
+    color: #4458dc;
+
+}
+
+
+.header_area  .navbar .navbar-nav .nav-item a:hover{
+  color: #4458dc;
+  
+}
+
+/* Banner Image */
+.site-main .site-banner {
+    background: rgba(243, 240, 240, 0.993);
+   height: 100%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+    
+}
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+
+}
+.site-banner .container .row .btn1{
+margin-bottom: 20%;
+margin-top: 5%;
+transition: .6 ease;
+    border: 2px solid #4458dc;
+    margin-right: 20px;
+        font-weight: 400;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-family: 'poppins', sans-serif;
+    background: #4458dc;
+    box-shadow: rgba(255, 255, 255, 0.8)}
+
+
+/* Button */
+.site-banner .container .row .btn1:hover{
+    color: #4458dc ;
+   background: rgba(243, 240, 240, 0.993);
+    transition: 0.5s ease;
+   
+}
+
+/* CV button */
+  .about-area .container-fluid .row .btn{
+    border: 2px solid black;
+    font-weight: 400;
+  }
+  .about-area .container-fluid .row .btn:hover{
+    color: white;
+    background: black;
+  }
+
+/* end button */
+
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+
+/* Start Brand Area */ 
+
+.site-main .brand-area{
+    padding: 1rem 10rem;
+    margin-bottom: 4rem;
+}
+
+.site-main .brand-area .first-row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img{
+    width: 50%;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
+    filter: brightness(0.15);
+}
+
+.site-main .brand-area .experience-area{
+    padding-left: 1rem;
+}
+
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+
+.site-main .brand-area .experience-area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: -190px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+
+.site-main .brand-area .experience-area .years-area h2 > span{
+    font: normal 600 22px/30px var(--roboto);
+}
+
+.site-main .brand-area .experience-area .call-area{
+    padding-left: 10rem;
+}
+ 
+/* End Brand Area */ 
+.container-gallery{
+    width: 700px;
+   margin-left: 100px;
+}
+.brand{
+    display: flex;
+}
+.about-section1{
+padding-right: 5%;   
+ display: block;
+    text-transform: uppercase;
+    padding-left: 5%;
+    background: rgb(250, 178, 178);
+    margin: 0 50px;
+    width: 30%;
+padding-top: 2%;
+    text-align: center;
+
+    
+    
+}
+
+
+.work{
+    width: 100%;
+    padding-top: 10%;
+    letter-spacing: 5px;
+    color: white;
+}
+.call{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    color: black;
+    text-align: center;
+   
+
+}
+/* Services Area */ 
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+
+/* End Services Area */ 
+
+
+/* Project Area */ 
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* End Project Area */ 
+/* * Footer Area */  */
+#site-logo{
+    font-size: 40px;
+    font-weight: 500;
+}
+footer.footer-area{
+    padding: 5rem 0;
+    background: rgba(243, 240, 240, 0.993);
+}
+
+footer.footer-area .social h5{
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer-area .social a > i{
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i{
+    color: var(--primary-color);
+}
+
+
+/* End Footer */ 
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+}
